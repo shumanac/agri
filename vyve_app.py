@@ -7,6 +7,7 @@ from PIL import Image
 from io import BytesIO
 from geopy.geocoders import Nominatim
 import cv2
+import joblib
 
 st.header("🛰️ Vyve Lab – Land Suitability Analyzer")
 
