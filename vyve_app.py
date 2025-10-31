@@ -15,7 +15,7 @@ st.header("🛰️ Vyve Lab – Land Suitability Analyzer")
 model = tf.keras.models.load_model('vyve_ndvi_model.h5')
 scaler = joblib.load('vyve_scaler.pkl')
 
-st.title("🌾 Vyve Lab – Smart Agriculture AI")
+
 st.markdown("Predict crop health (NDVI) based on weather conditions.")
 
 # User input fields
